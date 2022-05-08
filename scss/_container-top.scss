@@ -1,0 +1,123 @@
+// Header Starts here
+
+.container-top {
+  @media only screen and (max-width: 600px) {
+    .justify ul {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .justify {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .justify i {
+      display: none;
+    }
+
+    .justify ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-left: 40px;
+        font-weight: bolder;
+
+        &:first-of-type {
+          color: $color-cyan-blue;
+        }
+      }
+    }
+  }
+}
+
+header {
+  .justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+      color: $color-cyan-blue;
+      letter-spacing: 5px;
+      font-weight: $font-weight;
+      font-size: 22px;
+      text-transform: $text-transform-uppercase;
+    } 
+
+    i {
+      color: #6a859c;
+    }
+  }
+}
+
+.header-bottom {
+  background: url(../images/startrails.jpg) no-repeat center cover ;
+  padding: 5% 0 20% 0;
+  text-align: $text-align;
+  border-bottom: 3px solid $color-cyan-blue;
+
+  h1 {
+    font-weight: $font-weight;
+    color: $color-white;
+    font-size: 50px;
+    margin-bottom: 0;
+    text-transform: $text-transform-uppercase;
+  }
+
+  p {
+    &:first-of-type {
+      font-weight: $font-weight;
+      word-spacing: 5px;
+      color: $color-cyan-blue;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    &:last-of-type {
+      font-weight: $font-weight;
+      word-spacing: 5px;
+      color: $color-cyan-blue;
+      font-size: 18px;
+      margin-top: 0;
+      padding-bottom: 20px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+    button {
+      &:first-of-type {
+        padding: 15px 30px;
+        background-color: #69b9ff;
+        color: $color-white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-right: 10px;
+        width: 40%;
+      }
+
+
+
+      &:last-of-type {
+        background: none;
+        border: 1px solid $color-white;
+        color: $color-white;
+        border-radius: 5px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        width: 40%;
+      }
+    }
+  }
+}
+
+// Header Ends here

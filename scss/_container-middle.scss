@@ -1,0 +1,157 @@
+//Container-middle Starts here
+
+.section1 {
+  text-align: $text-align;
+  margin: 80px 0;
+
+  .para {
+    padding-bottom: 45px;
+    font-size: 20px;
+    text-transform: $text-transform-uppercase;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    color: $color-blue-magenta;
+    
+  }
+
+  p {
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    color: #6a859c;
+  }
+}
+
+.service {
+  border: 1px solid #d7e3ed;
+  border-radius: 5px;
+  padding: 40px;
+  font-size: small;
+  text-transform: $text-transform-uppercase;
+  margin-bottom: 20px;
+
+  .rounded {
+    border-radius: 50%;
+    padding: 20px;  
+    display: inline-block;
+    background-color: $color-cyan-blue;
+    width: 50px;
+    height: 50px;
+    outline: 2px solid $color-cyan-blue;
+    outline-offset: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: $font-weight;
+    word-spacing: 4px;
+    color: #676770;
+  }
+
+  img {
+    margin: 0 0 20px 0;
+  }
+}
+
+.section2 {
+  background-color: #192024;
+  padding: 100px 0;
+  color: $color-white;
+  letter-spacing: 4px;
+  text-align: $text-align;
+  text-transform: $text-transform-uppercase;
+
+  div {
+    padding: 0 40px;
+  }
+
+  p {
+    text-transform: lowercase;
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+
+  img {
+    margin: 50px auto;
+    width: 100%;
+    margin-bottom: 0; 
+  }
+
+  button {
+    margin: 25px 0;
+    padding: 18px 46px;
+    background: none;
+    font-family: $fontFamily-Open-Sans;
+    text-transform: $text-transform-uppercase;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: 1px solid $color-white;
+    color: $color-white;
+  }
+
+  span {
+    text-transform: $text-transform-uppercase;
+  }
+}
+
+.section3 {
+  text-transform: $text-transform-uppercase;
+  text-align: $text-align;
+  letter-spacing: 5px;
+  margin: 80px 0;
+
+  .buttons-group {
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    color: #676770;
+  }
+
+  button {
+    margin: 25px 0;
+    padding: 12px 40px;
+    text-transform: $text-transform-uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: $color-white;
+    background-color: $color-light-cyan-blue;
+    border: none;
+  }
+
+  span {
+    display: block;
+    letter-spacing: 4px;
+    color: #8e8e9c;
+    padding-bottom: 40px;
+  }
+
+  p {
+    text-transform: $text-transform-uppercase;
+    letter-spacing: normal;
+    color: #6a859c;
+  }
+
+  button {
+    &:first-of-type {
+      background-color: #2e80b6;
+      margin-bottom: 0;
+    }
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+}
+
+//Container-middle Ends here
